@@ -4,6 +4,5 @@ from django.shortcuts import render
 # render de la pagina de inicio
 
 def indexView(request):
-
-    return render(request, 'index.html',{})
+    return render(request, 'index.html', {})
 
